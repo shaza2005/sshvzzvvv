@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  
+}
+
+body {
+  
+  color: #fff;
+  line-height: 1.6;
+  
+}
+
+header {
+ background-color:#313131;
+ padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+  
+}
+
+nav a {
+    margin-bottom: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 25px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.gymphoto h1 {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 30px;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#Progress {
+  text-align: center;
+  padding: 50px 20px;
+  background: #000;
+}
+
+#Progress h2 {
+  margin-bottom: 30px;
+  color: red;
+}
+
+.theboxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+ 
+  
+}
+
+.box {
+  background: rgba(rgb(109, 102, 102));
+  padding: 20px;
+  width: 280px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+   background-color: #111;
+}
+
+.box h3 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+#Contact {
+  text-align: center;
+  padding: 30px 20px;
+  background: #000;
+}
+
+#Contact h2 {
+  margin-bottom: 15px;
+  color: red;
+}
+
+#Contact h4 {
+  font-weight: normal;
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  font-size: 14px;
+ color: #bbb;
+}
+
